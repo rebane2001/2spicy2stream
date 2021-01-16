@@ -11,12 +11,6 @@ import org.spongepowered.asm.mixin.injection.ModifyVariable;
 @Mixin(FontRenderer.class)
 public abstract class FontRendererMixin implements IResourceManagerReloadListener {
 
-    //@Inject(method = "renderString", at = @At(value = "HEAD"))
-    //private void renderStringAtPos(String p_renderString_1_, float p_renderString_2_, float p_renderString_3_, int p_renderString_4_, boolean p_renderString_5_, CallbackInfoReturnable<Integer> cir) {
-    //    System.out.println("FUU");
-    //    p_renderString_1_ = "dick";
-    //}
-
     @ModifyVariable(method = "renderStringAtPos", at = @At("HEAD"))
     private String renderStringAtPos(String text) {
         if (Keybinds.keyBindings[0].isKeyDown())
