@@ -21,3 +21,7 @@ Pretty much all of them - chat, signs, books, nametags etc. 2s2s injects itself 
 Maps do not render their image at all. This can be turned off in the mod options separately from the text censoring.
 ### What if I still wish to see the original messages/maps?
 You can turn off the censoring in the mod options. Additionally, you can bind a key to disable censoring while holding it.
+### Does 2s2s affect performance?
+Yes, but most of the time it is not noticable. If you have a lot of text rendering at once (such as a lot of signs), you may notice significant fps drops.
+### Is this mod a joke?
+No, at least not completely.
