@@ -1,0 +1,10 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "package": "com.rebane2001.twospicytwostream.mixin",
+  "mixins": [
+    "FontRendererMixin",
+    "MapItemRendererMixin"
+  ],
+  "client": [],
+  "server": []
+}
